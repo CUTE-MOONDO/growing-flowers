@@ -1,0 +1,15 @@
+넣고싶은 폴더안에서 마우스 우클릭 -> Git Bash Here
+
+CMD창에서
+git clone https://github.com/CUTE-MOONDO/moondo-s_child.git
+
+git init
+git status
+git add .
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/CUTE-MOONDO/moondo-s_child.git
+git push origin master
+
+
+
