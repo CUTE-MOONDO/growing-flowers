@@ -1,0 +1,8 @@
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\bin\Debug\PsychiatricProgram.exe
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\bin\Debug\PsychiatricProgram.pdb
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.csprojAssemblyReference.cache
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.Form1.resources
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.Properties.Resources.resources
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.csproj.GenerateResource.cache
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.exe
+C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.pdb
