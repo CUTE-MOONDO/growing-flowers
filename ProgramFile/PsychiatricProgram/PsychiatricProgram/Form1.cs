@@ -11,15 +11,22 @@ namespace PsychiatricProgram
 {
     public partial class Form1 : Form
     {
+        UserForm uf;
+        
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        public Form1(UserForm uf)
         {
-            //아이콘을 resources에 담아둔 icon파일로 설정한다.
-            this.Icon = Properties.Resources.MainIcon;
+            InitializeComponent();
+            this.uf = uf;
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            uf.form_OnClose();
         }
     }
 }

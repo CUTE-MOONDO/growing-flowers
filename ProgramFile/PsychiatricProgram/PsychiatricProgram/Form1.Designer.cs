@@ -80,7 +80,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "정신의학과  No.1 프로그램 Moondo\'s Child";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
