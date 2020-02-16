@@ -30,10 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.userName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.userAge = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -58,14 +58,16 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "이름 :";
             // 
-            // textBox1
+            // userName
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(59, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(187, 25);
-            this.textBox1.TabIndex = 1;
+            this.userName.BackColor = System.Drawing.Color.White;
+            this.userName.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.userName.ImeMode = System.Windows.Forms.ImeMode.Hangul;
+            this.userName.Location = new System.Drawing.Point(59, 58);
+            this.userName.MaxLength = 20;
+            this.userName.Name = "userName";
+            this.userName.Size = new System.Drawing.Size(187, 25);
+            this.userName.TabIndex = 1;
             // 
             // label3
             // 
@@ -78,17 +80,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "나이 :";
             // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox2.ImeMode = System.Windows.Forms.ImeMode.Alpha;
-            this.textBox2.Location = new System.Drawing.Point(59, 98);
-            this.textBox2.MaxLength = 3;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(187, 25);
-            this.textBox2.TabIndex = 2;
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
@@ -99,10 +90,22 @@
             this.button1.Location = new System.Drawing.Point(101, 281);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 31);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 3;
             this.button1.Text = "확인";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // userAge
+            // 
+            this.userAge.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.userAge.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 11.25F);
+            this.userAge.Location = new System.Drawing.Point(59, 102);
+            this.userAge.Mask = "999";
+            this.userAge.Name = "userAge";
+            this.userAge.RejectInputOnFirstFailure = true;
+            this.userAge.Size = new System.Drawing.Size(100, 25);
+            this.userAge.TabIndex = 2;
+            this.userAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.userAge_KeyPress);
             // 
             // UserForm
             // 
@@ -110,10 +113,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(301, 324);
+            this.Controls.Add(this.userAge);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.userName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "UserForm";
@@ -128,9 +131,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.TextBox userName;
+        public System.Windows.Forms.MaskedTextBox userAge;
     }
 }

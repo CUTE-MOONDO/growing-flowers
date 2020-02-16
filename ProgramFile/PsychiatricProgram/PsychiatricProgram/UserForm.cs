@@ -18,24 +18,41 @@ namespace PsychiatricProgram
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //현재 Form 을 hide하고 다음 Form show
-            this.Visible = false;
-            Form1 fm1 = new Form1(this);
-            fm1.ShowDialog();
-
-
-        }
-        public void form_OnClose()
-        {
-            //다른 Form이 종료됐을 때 현재 Form Visivle = true
-            this.Visible = true;
-
+            nextForm(sender, e);
         }
 
         private void UserForm_Load(object sender, EventArgs e)
         {
-            //아이콘을 resources에 담아둔 icon파일로 설정한다.
+            //아이콘을 resources에 담아둔 icon파일로 설정한다
             this.Icon = Properties.Resources.MainIcon;
+
+            //MaskTextBox 컨트롤을 맨 앞으로 보낸다
+            userAge.BringToFront();
+        }
+
+        private void userAge_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //EnterKey눌렀을 때
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                nextForm(sender, e);
+            };
+        }
+
+        private void nextForm(object sender, EventArgs e)
+        {
+            if (userName.Text != "" && userAge.Text != "")
+            {
+                //현재 Form 을 hide하고 다음 Form show
+                this.Visible = false;
+                MainForm fm1 = new MainForm(this);
+                fm1.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("이름과 나이를 모두 입력하여 주세요", "비어있음", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                userName.Focus();
+            }
         }
     }
 }

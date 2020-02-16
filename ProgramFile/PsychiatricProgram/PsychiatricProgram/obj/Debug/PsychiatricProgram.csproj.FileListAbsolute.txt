@@ -9,9 +9,9 @@ C:\Users\shdmf\source\repos\PsychiatricProgram\PsychiatricProgram\obj\Debug\Psyc
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\bin\Debug\PsychiatricProgram.exe
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\bin\Debug\PsychiatricProgram.pdb
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.csprojAssemblyReference.cache
-D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.Form1.resources
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.Properties.Resources.resources
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.csproj.GenerateResource.cache
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.exe
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.pdb
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.UserForm.resources
+D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.MainForm.resources
