@@ -15,3 +15,14 @@ D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\Psychiat
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.pdb
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.UserForm.resources
 D:\GitRoom\moondo-s_child\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.MainForm.resources
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\bin\Debug\PsychiatricProgram.exe
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\bin\Debug\PsychiatricProgram.pdb
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.csprojAssemblyReference.cache
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.MainForm.resources
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.Properties.Resources.resources
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.UserForm.resources
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.csproj.GenerateResource.cache
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.csproj.CoreCompileInputs.cache
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.exe
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.pdb
+E:\MOONDO\moondo-s_child\ProgramFile\PsychiatricProgram\PsychiatricProgram\obj\Debug\PsychiatricProgram.RorschachTest.resources

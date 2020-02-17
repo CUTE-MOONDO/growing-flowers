@@ -39,9 +39,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("G마켓 산스 TTF Bold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("G마켓 산스 Medium", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
-            this.label1.Location = new System.Drawing.Point(77, 9);
+            this.label1.Location = new System.Drawing.Point(77, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 22);
             this.label1.TabIndex = 0;
@@ -50,33 +50,33 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Font = new System.Drawing.Font("G마켓 산스 Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
             this.label2.Location = new System.Drawing.Point(12, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 19);
+            this.label2.Size = new System.Drawing.Size(46, 18);
             this.label2.TabIndex = 0;
             this.label2.Text = "이름 :";
             // 
             // userName
             // 
             this.userName.BackColor = System.Drawing.Color.White;
-            this.userName.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.userName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.userName.ImeMode = System.Windows.Forms.ImeMode.Hangul;
             this.userName.Location = new System.Drawing.Point(59, 58);
             this.userName.MaxLength = 20;
             this.userName.Name = "userName";
-            this.userName.Size = new System.Drawing.Size(187, 25);
+            this.userName.Size = new System.Drawing.Size(187, 24);
             this.userName.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Font = new System.Drawing.Font("G마켓 산스 Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
             this.label3.Location = new System.Drawing.Point(12, 104);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 19);
+            this.label3.Size = new System.Drawing.Size(46, 18);
             this.label3.TabIndex = 0;
             this.label3.Text = "나이 :";
             // 
@@ -85,7 +85,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("G마켓 산스 TTF Bold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Font = new System.Drawing.Font("G마켓 산스 Medium", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(101, 281);
             this.button1.Name = "button1";
@@ -98,12 +98,12 @@
             // userAge
             // 
             this.userAge.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.userAge.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 11.25F);
+            this.userAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.userAge.Location = new System.Drawing.Point(59, 102);
             this.userAge.Mask = "999";
             this.userAge.Name = "userAge";
             this.userAge.RejectInputOnFirstFailure = true;
-            this.userAge.Size = new System.Drawing.Size(100, 25);
+            this.userAge.Size = new System.Drawing.Size(100, 24);
             this.userAge.TabIndex = 2;
             this.userAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.userAge_KeyPress);
             // 
@@ -120,6 +120,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "UserForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserForm";
             this.Load += new System.EventHandler(this.UserForm_Load);
             this.ResumeLayout(false);

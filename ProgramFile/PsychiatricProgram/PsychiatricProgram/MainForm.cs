@@ -46,5 +46,13 @@ namespace PsychiatricProgram
         {
             uf.Close();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+
+            RorschachTest rt = new RorschachTest(this);
+            rt.ShowDialog();
+        }
     }
 }
