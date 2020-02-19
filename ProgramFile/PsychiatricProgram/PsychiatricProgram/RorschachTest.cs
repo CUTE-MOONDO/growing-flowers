@@ -20,8 +20,9 @@ namespace PsychiatricProgram
         }
 
         void init()
-        {
-
+        { 
+            //아이콘을 resources에 담아둔 icon파일로 설정한다.
+            this.Icon = Properties.Resources.MainIcon;
         }
 
         private void RorschachTest_FormClosing(object sender, FormClosingEventArgs e)
@@ -46,6 +47,10 @@ namespace PsychiatricProgram
 
         private void Button4_Click(object sender, EventArgs e)
         {
+            //과거 이력 저장
+            mf.user.setUserpast(when_textBox.Text, content_textBox.Text);
+
+            //패널 숨기기
             panel1.Visible = false;
             panel2.Visible = false;
         }

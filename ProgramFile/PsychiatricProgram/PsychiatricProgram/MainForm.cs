@@ -12,7 +12,7 @@ namespace PsychiatricProgram
     public partial class MainForm : Form
     {
         UserForm uf;
-        User user;
+        public User user;
         public MainForm(UserForm uf)
         {
             InitializeComponent();
@@ -27,10 +27,7 @@ namespace PsychiatricProgram
 
             userName_label.Text = user.getUserName();
             userAge_label.Text = "" + user.getUserAge();
-        }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
             //아이콘을 resources에 담아둔 icon파일로 설정한다.
             this.Icon = Properties.Resources.MainIcon;
         }
@@ -49,6 +46,7 @@ namespace PsychiatricProgram
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            //로샤 검사 폼 열기
             this.Visible = false;
 
             RorschachTest rt = new RorschachTest(this);
