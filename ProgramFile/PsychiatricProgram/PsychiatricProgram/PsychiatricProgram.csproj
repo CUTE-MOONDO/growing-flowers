@@ -136,5 +136,8 @@
   <ItemGroup>
     <None Include="Resources\Rorschach_10.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\실루엣.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -37,6 +37,8 @@
             this.userName_label = new System.Windows.Forms.Label();
             this.userAge_label = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -52,30 +54,30 @@
             // lable1
             // 
             this.lable1.AutoSize = true;
-            this.lable1.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lable1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lable1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
-            this.lable1.Location = new System.Drawing.Point(151, 157);
+            this.lable1.Location = new System.Drawing.Point(456, 157);
             this.lable1.Name = "lable1";
-            this.lable1.Size = new System.Drawing.Size(218, 37);
+            this.lable1.Size = new System.Drawing.Size(185, 37);
             this.lable1.TabIndex = 1;
             this.lable1.Text = "님, 반갑습니다";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("G마켓 산스 TTF Bold", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
-            this.label2.Location = new System.Drawing.Point(23, 34);
+            this.label2.Location = new System.Drawing.Point(12, 42);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(845, 111);
+            this.label2.Size = new System.Drawing.Size(769, 91);
             this.label2.TabIndex = 1;
-            this.label2.Text = "R o r s c h a c h";
+            this.label2.Text = "Psychiatric Program";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("G마켓 산스 TTF Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(756, 157);
             this.button1.Name = "button1";
@@ -89,7 +91,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("G마켓 산스 TTF Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(756, 235);
             this.button2.Name = "button2";
@@ -102,7 +104,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("G마켓 산스 TTF Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(756, 313);
             this.button3.Name = "button3";
@@ -114,35 +116,46 @@
             // userName_label
             // 
             this.userName_label.AutoSize = true;
-            this.userName_label.Font = new System.Drawing.Font("G마켓 산스 TTF Bold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userName_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userName_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
-            this.userName_label.Location = new System.Drawing.Point(35, 157);
+            this.userName_label.Location = new System.Drawing.Point(340, 157);
             this.userName_label.Name = "userName_label";
-            this.userName_label.Size = new System.Drawing.Size(110, 37);
+            this.userName_label.Size = new System.Drawing.Size(92, 37);
             this.userName_label.TabIndex = 1;
             this.userName_label.Text = "홍길동";
             // 
             // userAge_label
             // 
             this.userAge_label.AutoSize = true;
-            this.userAge_label.Font = new System.Drawing.Font("G마켓 산스 TTF Bold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userAge_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userAge_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
-            this.userAge_label.Location = new System.Drawing.Point(37, 199);
+            this.userAge_label.Location = new System.Drawing.Point(347, 194);
             this.userAge_label.Name = "userAge_label";
-            this.userAge_label.Size = new System.Drawing.Size(44, 27);
+            this.userAge_label.Size = new System.Drawing.Size(41, 29);
             this.userAge_label.TabIndex = 1;
-            this.userAge_label.Text = "23";
+            this.userAge_label.Text = "56";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("G마켓 산스 TTF Light", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(77)))), ((int)(((byte)(130)))));
-            this.label3.Location = new System.Drawing.Point(76, 201);
+            this.label3.Location = new System.Drawing.Point(386, 196);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 24);
+            this.label3.Size = new System.Drawing.Size(28, 25);
             this.label3.TabIndex = 1;
             this.label3.Text = "세";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::PsychiatricProgram.Properties.Resources.실루엣;
+            this.pictureBox1.Location = new System.Drawing.Point(28, 157);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(306, 344);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -159,6 +172,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lable1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -166,6 +180,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "정신의학과  No.1 프로그램 Moondo\'s Child";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,6 +197,7 @@
         private System.Windows.Forms.Label userName_label;
         private System.Windows.Forms.Label userAge_label;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
